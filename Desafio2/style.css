@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 0 20px; /* Remova o padding vertical */
+    height: 60px; /* Defina uma altura fixa para a navbar */
+    box-shadow: 0 4px 6px -6px #222;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 0 20px; /* Ajuste o padding horizontal */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 100%; /* Garantir que o link ocupe toda a altura da navbar */
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.nav-items {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.content {
+    padding: 100px 20px;
+}
+
+#logo {
+    height: 90%; 
+}
+.content {
+    padding: 100px 20px;
+}
+
+.content-item {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    border: 1px soli black;
+}
+
+.content-image {
+    max-width: 80px; /* Ajusta a imagem para não ultrapassar o tamanho do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.content-text {
+    font-size: 1.2em;
+    line-height: 1.6;
+}

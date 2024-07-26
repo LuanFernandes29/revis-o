@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduçao a HTML semântica</title>
+</head>
+<style>
+    mark{
+        background-color: rgb(115, 69, 215);
+    }
+</style>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito/italico</h2>
+    <p>Nesta frase temos o <b>termo em negrito</b> usando a tag B (nao semantica)</p>
+    <p>Nesta frase, temos um <strong>termo em destaque </strong> usando a tag Strong (semantica)</p>
+    <br>
+    <h2>italica/Ênfase</h2>
+    <p>Nesta frase, temos o <i>termo em italico</i> usando a tag i (não semantico)</p>
+    <p>Nesta frase, temos o <em>termo em destaque</em> usando a tag EM (semantioc)</p>
+    <br>
+    <h2>Texto marcado</h2>
+    <p>podemos criar tambem <mark>um texto marcado</mark> usando a tag MARK semantico</p>
+    <p>E no outro paragrafo, temos <mark>outro texto marcado</mark> no final </p>
+    <marquee>texto rodando na tela</marquee>
+    <br>
+    <h2>Texto Grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse paragrafo</p>
+    <br>
+    <p>podemos marcar <del>um texto como excluido</del>para indicar que ele deveser lido, mas nao considerado</p>
+    <br>
+    <h2>Texto Inserido</h2>
+    <p>podemos marcar <ins>um texto como inserido</ins> para dar uma enfase e indicar que ele foi adicionado depois</p>
+    <p>    existe tambem o <u>Sublinhado</u> com a tag U (Nao semantica)</p>
+    <h2>texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x <sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H <sub>2</sub>O</p>
+    <br><hr><br>
+    <h2>Exemplo de codigo javascript</h2>
+    <!-- pre comando que assume a formataçao de um codigo -->
+    <pre>
+        <!-- cpde onforma ao navegador que o trecho digitado e um codigo de computador e altera a letra -->
+        <code>
+            function checkTime(i){
+                if (i<10){
+                    i="0" + i;
+                }
+                return i;
+            }
+        </code>
+    </pre>
+    <br><hr><br>
+    <h2>Abreviações</h2>
+    <p>Eu estou estudando <abbr title="Hyper text markup language">HTML</abbr> para criar sites</p>
+    <br><hr><br>
+    
+    
+</body>
+</html>
